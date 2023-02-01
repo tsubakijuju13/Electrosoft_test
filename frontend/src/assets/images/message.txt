@@ -1,0 +1,85 @@
+```js
+*************************** USUARIOS BASICOS ********************************
+
+******************************* CLIENTE ********************************
+{
+    "nombre": "Cliente",
+    "apellido": "Betancourt",
+    "role": "Cliente",
+    "identificacion": "1000",
+    "direccion": "casras",
+    "ciudad": "cal",
+    "barrio": "ascas",
+    "telefono": "3124567890",
+    "email": "cliente@gmail.com",
+    "password":"1234",
+    "re_password":"1234"
+}
+******************************* OPERADOR ********************************
+{
+    "nombre": "Operador",
+    "apellido": "Betancourt",
+    "role": "operador",
+    "identificacion": "1001",
+    "direccion": "casras",
+    "ciudad": "cal",
+    "barrio": "ascas",
+    "telefono": "3124567890",
+    "email": "operador@gmail.com",
+    "password":"1234",
+    "re_password":"1234"
+}
+******************************* Admin ********************************
+{
+    "nombre": "Admin",
+    "apellido": "Betancourt",
+    "role": "administrador",
+    "identificacion": "1002",
+    "direccion": "casras",
+    "ciudad": "cal",
+    "barrio": "ascas",
+    "telefono": "3124567890",
+    "email": "admin@gmail.com",
+    "password":"1234",
+    "re_password":"1234"
+}
+******************************* Gerente ********************************
+{
+    "nombre": "Manager",
+    "apellido": "Betancourt",
+    "role": "gerente",
+    "identificacion": "1003",
+    "direccion": "casras",
+    "ciudad": "cal",
+    "barrio": "ascas",
+    "telefono": "3124567890",
+    "email": "manager@gmail.com",
+    "password":"1234",
+    "re_password":"1234"
+}
+**************************** Contrato *********************
+{
+    "fecha_vinculación": "2023-1-1",
+    "estado_contrato": "Active",
+    "ciudad": "cali",
+    "direccion": "casrasf",
+    "estrato": "2",
+    "uso": "1",
+    "id_cliente": 1
+}
+**************************** factura *********************
+{
+  "no_factura": 1,
+  "fecha_expedicion": "2023-01-28",
+  "fecha_vencimiento": "2022-05-25",
+  "estado": "En Mora",
+  "consumo_energia": 3.0,
+  "energia_lectura_actual": "12",
+  "energia_valor_total": 5986.0,
+  "lys_valor_total": 5321.0,
+  "alumbrado_valor_total": 5621.0,
+  "valor_total": 51254.0,
+  "valor_recargo": 3845848.0,
+  "codigo_contrato": 1
+}
+```

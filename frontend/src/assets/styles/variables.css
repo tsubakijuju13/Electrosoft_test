@@ -1,0 +1,63 @@
+@import url('./fonts.css');
+
+:root {
+    --border-radius: 0.25rem;
+    /* color codes */
+    /* essential colors */
+    --black: #141414;
+    --light-grey: #EBEBEB;
+    --dark-grey: #7C7C7C;
+    --purple: #57416A;
+    --dark-purple: #392947;
+    --light-yellow: #FAC474;
+    --white: #fff;
+
+    /* other colors */
+    --secondary-color: #f7b085;
+    --secondary-color-dark: #f29377;
+    --logo-second-color: var(--secondary-color);
+    --blue-grey: #37474F;
+    --grey: #a1a1a1;
+    --blue-dark: rgb(7, 71, 166);
+    --blue-normal: #1976D2;
+    --red-normal: #D32F2F;
+    --red-dark: #B71C1C;
+    --green-dark: #004D40;
+    --green-normal: #00897B;
+    --orange-dark: #E65100;
+    --orange-normal: #F57C00;
+    --yellow-dark: #F57F17;
+    --yellow-normal: #FBC02D;
+    --brown-dark: #3E2723;
+    --brown-normal: #5D4037;
+    --green-normal: #09a609;
+
+    /* contet colors */
+    --theme-color: var(--dark-grey);
+    --default-letter-spacing: .03em;
+    --default-line-height: 21px;
+    --content-background-color: var(--light-grey);
+
+    /* font family */
+    --default-font-light: grandview-light;
+    --default-font-regular: grandview-regular;
+    --default-font-semibold: grandview-regular;
+    --default-font-bold: grandview-bold;
+    --default-font-light-italic: grandview-light-italic;
+
+    /* sidebar */
+    --sidenav-active-font: var(--default-font-bold);
+    --sidenav-normal-font: var(--default-font-regular);
+    --sidenav-color: var(--white);
+    --sidenav-active-color: var(--yellow-normal);
+    --sidenav-background-color: var(--theme-color);
+    
+    --sidebar-width: 200px;
+
+    /* header */
+    --header-background-color: var(--dark-purple);
+    --header-color: var(--white);
+    --header-font: var(--default-font-bold);
+
+    --header-height: 75px;
+}

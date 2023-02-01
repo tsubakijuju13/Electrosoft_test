@@ -1,0 +1,18 @@
+body{
+    background-color: #fafafa;
+  }
+  
+  .layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  #contenedorTarjeta{
+    margin-top: 15vh;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #dadada;
+    
+  }

@@ -1,0 +1,146 @@
+body {
+  /* background: #d5b59c; */
+  font-size: 0.9em !important;
+
+}
+
+.invoice {
+  width: 970px !important;
+  margin: auto auto;
+  padding: 25px 25px 15px;
+  font-size: .9em;  
+  /* margin: 0; */
+    border: 1px solid #ccc;
+    /* border-radius: 10px; */
+    /* background: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-size: 0.9em; */
+    /* color: #555;*/
+    background-color: rgb(235, 235, 235);
+
+}
+
+
+
+.invoice-header {
+    margin-top: 0;
+    padding: 25px 25px 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.media-left {
+    float: left;
+    margin-right:30px;
+}
+
+
+.pdf{
+    background-color: #999999;
+}
+
+
+.invoice-body{
+    border-radius: 10px;
+    padding: 25px;
+    background: blue;
+    
+}
+
+
+
+
+
+
+.invoice-header {
+  padding: 25px 25px 15px;
+
+}
+
+/* media a la izquierda */
+.media {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+
+}
+.media-body {
+  font-size: 0.9em;
+  margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    
+}
+.invoice-body {
+  border-radius: 10px;
+  padding: 25px;
+  background: #fff;
+}
+.invoice-footer {
+  padding: 15px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #999;
+}
+
+.logo {
+  max-height: 550px;
+    max-width: 550px;
+  border-radius: 10px;
+}
+
+.dl-horizontal {
+    /* decente */ 
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+
+    /* RARO */
+  /* float: left;
+  width: 80px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 90px; */
+  /* por columns*/
+    /* column-count: 2;
+    column-gap: 1em;
+    column-rule: 1px solid #ccc;
+    column-width: 100px; 
+    column-width: 50%; */
+
+  
+
+}
+.dt{
+      float: left;
+      width: 80px;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    } 
+.dd{
+      margin-left:90px;
+    }
+
+.rowamount {
+  padding-top: 15px !important;
+}
+
+.rowtotal {
+  font-size: 1.3em;
+}
+
+.colfix {
+  width: 12%;
+}
+
+.mono {
+  font-family: monospace;
+}

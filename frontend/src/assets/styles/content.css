@@ -1,0 +1,52 @@
+@import url('./variables.css');
+
+.title {
+    background-color: var(--light-yellow);
+    color: var(--dark-purple);
+    font-size: 32px;
+    font-family: var(--default-font-bold);
+    text-align: center;
+    border: var(--light-yellow);
+}
+
+.row {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.col {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.content-card {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--default-font-bold);
+}
+
+ .publicity {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.baner {
+    width: 85%;
+    height: 250px;
+}
+
+
+.green-text {
+    color: var(--green-normal);
+    font-family: var(--default-font-bold);
+}
+
+.red-text {
+    color: var(--red-normal);
+    font-family: var(--default-font-bold);
+}
+

@@ -1,0 +1,65 @@
+.background {
+  background: linear-gradient(
+    -45deg,
+    #fac474,
+    #fac474 49%,
+    #ebebeb 49%,
+    #ebebeb 51%,
+    #ebebeb 51%
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#register-form {
+background-color: #392947;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 2%;
+}
+
+.container {
+  height: auto;
+}
+
+
+.logo {
+  width: 15%;
+  height: 10%;
+  margin: 0 auto;
+  margin-bottom: 0%;
+}
+
+.Letras {
+  font-size: 15px;
+  color: #ebebeb;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.captcha {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+}

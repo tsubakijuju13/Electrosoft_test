@@ -1,0 +1,114 @@
+@import url('./variables.css');
+
+#main-container {
+  place-items: center center;
+}
+
+
+.background {
+  background: linear-gradient(-45deg,
+      var(--light-yellow),
+      var(--light-yellow) 49%,
+      var(--light-grey) 49%,
+      var(--light-grey) 51%,
+      var(--light-grey) 51%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* text */
+.form-text {
+  color: var(--light-grey);
+  font-family: var(--default-font-regular);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.subtext {
+  color: var(--light-grey);
+  font-size: 15px;
+  font-family: var(--default-font-light);
+  align-self: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.link {
+  color: var(--light-yellow);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form-title {
+  color: var(--light-yellow);
+  font-family: var(--default-font-bold);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+.electrosoft-title {
+  color: var(--purple);
+  font-family: var(--default-font-bold);
+  font-size: 70px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-left: 10vw;
+  padding: 20px;
+}
+
+/* form */
+.form-container {
+  background-color: var(--purple);
+  border-radius: 100px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 500px;
+  margin-left: 10vw;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formulario-usuario {
+  background-color: #ebebeb;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.submit-button {
+  background-color: var(--purple);
+  color: var(--light-grey);
+  font-family: var(--default-font-bold);
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+}
